@@ -8,9 +8,19 @@ The work focused on defining entities, attributes, and relationships to manage s
 
 The database uses **Primary Keys (PK)** to uniquely identify each entity and **Foreign Keys (FK)** to establish relationships between them.  
 Different types of relationships were implemented:
+Different types of relationships were implemented:
 
-- One-to-many (Supplier → Glasses, Customer → Sales)
-- Self-referencing relationship (Customer recommendations)
+- One-to-many:
+  - Supplier → Eyeglasses  
+  - Client → Sales  
+  - Employee → Sales  
+
+- Many-to-many:
+  - Sales ↔ Eyeglasses  
+  (resolved using an intermediate table `sale_eyeglasses`, which stores quantity)
+
+- Self-referencing:
+  - Client → Client (Referal system)
 
 The design follows normalization principles to ensure data consistency and avoid redundancy.
 
