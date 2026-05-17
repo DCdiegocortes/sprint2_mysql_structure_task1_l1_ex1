@@ -29,6 +29,14 @@ The design follows normalization principles to ensure data consistency and avoid
 - MySQL Workbench
 - XAMPP
 - MAMP
+  
+## 📂 Project Structure
+- `BottleBottomOpticsSchema.png` >> Database model schema 
+- `BottleBottomOpticsScript.sql` >> SQL script  
+- `README.md` >> Documentation  
+
+## 📸 Demo  
+Open the `.mwb` file in MySQL Workbench to visualize the schema.
 
 ## 🚀 Installation  
 1. Clone the repository  
